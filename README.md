@@ -16,45 +16,8 @@ It integrates three major components:
 1. **Frontend (React + Vite)** – Handles user input and visualization.  
 2. **Backend (Node.js + Express + MongoDB)** – Manages APIs, database, and communication between frontend and ML service.  
 3. **ML Service (Flask + Python)** – Performs forecasting using ARIMA and LSTM models on historical CSV datasets.
-
----
-
-## 📂 Folder Structure
-
-fintech-forecast/
-│
-├── frontend/               # React + Vite UI
-│   ├── src/
-│   │   ├── components/     # Chart.jsx, ForecastForm.jsx
-│   │   ├── services/       # api.js for backend communication
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   └── package.json
-│
-├── backend/                # Node.js + Express + MongoDB
-│   ├── controllers/        # forecastController.js
-│   ├── models/             # priceModel.js, forecastModel.js
-│   ├── routes/             # forecastRoutes.js
-│   ├── seedData.js         # Imports datasets into MongoDB
-│   ├── server.js           # Main Express app
-│   ├── .env                # MONGO_URI, ML_SERVICE_URL
-│   └── package.json
-│
-├── ml-service/             # Flask ML microservice
-│   ├── data/               # CSVs: AAPL, MSFT, BTC-USD
-│   ├── models/             # ARIMA, LSTM implementations
-│   ├── app.py              # Flask API (forecasts)
-│   └── requirements.txt
-│
-├── docs/                   # Report, architecture diagram, screenshots
-│   ├── report.pdf
-│   ├── architecture_diagram.png
-│   └── model_comparison_table.xlsx
-│
-├── database/               # Optional backups or MongoDB dump
-│
-└── README.md
-
+ 
+ 
 ---
 
 ## ⚙️ Setup & Run Instructions
