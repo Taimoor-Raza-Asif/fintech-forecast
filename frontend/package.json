@@ -1,0 +1,21 @@
+{
+  "name": "finforecast-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "axios": "^1.6.0",
+    "plotly.js-dist-min": "^2.26.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-plotly.js": "^2.6.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

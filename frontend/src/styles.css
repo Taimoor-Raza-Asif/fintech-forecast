@@ -1,0 +1,36 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+  padding: 20px;
+  background: #f5f7fa;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+}
+
+.forecast-form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 6px;
+  margin-left: 6px;
+}
+
+button {
+  padding: 6px 10px;
+  background: #1e88e5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #1565c0;
+}
